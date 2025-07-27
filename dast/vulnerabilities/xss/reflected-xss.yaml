@@ -4,6 +4,7 @@ info:
   name: Reflected Cross-Site Scripting
   author: pdteam, 0xKayala, AmirHossein Raeisi
   severity: medium
+  description: Detects reflected XSS by injecting payloads in the path and query and checking if they're reflected in the HTML response
   metadata:
     max-request: 1
   tags: xss,rxss,dast
